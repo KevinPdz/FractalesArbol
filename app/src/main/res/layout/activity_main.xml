@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1400BCD4"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginVertical="30sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="44dp"
+        android:background="#E9EAE6"
+        android:backgroundTint="#FAF5F7"
+        app:layout_constraintBottom_toBottomOf="@id/seekBar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>
